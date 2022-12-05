@@ -2,8 +2,12 @@ import itertools
 from collections import Counter, defaultdict
 
 # read input
-inp = [s.rstrip() for s in open("input.txt")]
+inp = [s.rstrip("\n") for s in open("input.txt")]
 print(inp)
+
+# ----------both parts
+
+# ----------both parts
 
 # ----------part 1
 
