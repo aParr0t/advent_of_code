@@ -1,6 +1,3 @@
-import itertools
-from collections import Counter, defaultdict
-
 # read input
 inp = [s.rstrip("\n") for s in open("input.txt")]
 print(inp)
