@@ -1,5 +1,10 @@
 # read input
 inp = [s.rstrip() for s in open("input.txt")]
+
+print(inp[:10])
+import sys
+
+sys.exit()
 inp = [int(x) if x else "" for x in inp]
 
 # ----------part 1
