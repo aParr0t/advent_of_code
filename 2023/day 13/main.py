@@ -1,5 +1,3 @@
-import functools
-
 # read input
 P = [s.split("\n") for s in open("input.txt").read().split("\n\n")]
 
