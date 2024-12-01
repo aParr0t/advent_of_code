@@ -1,10 +1,8 @@
-# read input
+# ----------common for both parts
 inp = [s.rstrip("\n") for s in open("input.txt")]
 print(inp)
 
-# ----------both parts
-
-# ----------both parts
+# ----------common for both parts
 
 # ----------part 1
 
