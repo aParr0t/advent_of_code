@@ -1,5 +1,5 @@
 # ----------common for both parts
-inp = [s.rstrip("\n") for s in open("input.txt")]
+inp = [s.strip("\n") for s in open("input.txt")]
 print(inp)
 
 # ----------common for both parts
