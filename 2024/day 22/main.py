@@ -51,10 +51,10 @@ for init_secret in init_secrets:
     rel_changes = [-11] * 2001
     bananas = [99] * 2001
     s = init_secret
-    bananas[0] = int(str(s)[-1])
+    bananas[0] = s % 10
     for i in range(1, 2001):
         s = next_secret(s)
-        bananas[i] = int(str(s)[-1])
+        bananas[i] = s % 10
         rel_changes[i] = bananas[i] - bananas[i - 1]
     all_bananas.append(bananas)
     all_rel_changes.append(rel_changes)
